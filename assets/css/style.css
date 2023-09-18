@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+    margin: 0;
+}
+:root{
+  --color: #a481df;
+ --color2: #fff;
+}
+button.btn.btn-outline-success {
+    padding: 15px 25px 15px 25px;
+     border-radius: 35px;
+     border: 1px solid #a481df;
+     color: black;
+  }
+  .btn-area button:hover {
+    background: var(--color);
+    background-color: rgb(205, 199, 199);
+    color: rgb(0, 0, 0);
+    }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #fff;
+   color: rgb(0, 0, 0);}
+
+
+   
+.d-flex {
+    display: flex!important;
+    margin-left: 50px;
+}
+.header-area{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+ul.dropdown-menu.show {
+    margin-top: 20%;
+}
+a.btn-praimary-1 {
+    border-radius: 40px;
+    padding: 20px 38px;
+    border: 2px solid #000000;
+        display: inline-block;
+        text-decoration: none;
+        background-color: #5d00ff;
+        color: white;
+        
+      }
